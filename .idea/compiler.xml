@@ -8,7 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-client" />
         <module name="cloud-server" />
+        <module name="cloud-api" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-api" options="" />
+      <module name="cloud-client" options="" />
+      <module name="cloud-server" options="" />
+    </option>
   </component>
 </project>
