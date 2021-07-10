@@ -18,6 +18,14 @@
             <version>1.0</version>
             <scope>compile</scope>
         </dependency>
+
+        <!-- aop 依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+
     </dependencies>
 
 </project>
