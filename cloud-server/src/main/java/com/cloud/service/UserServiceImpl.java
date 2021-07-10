@@ -10,7 +10,7 @@ import org.apache.dubbo.config.annotation.Service;
 @Service(protocol = "dubbo",version ="1.0")
 public class UserServiceImpl implements UserService {
     @Override
-    public UserDto add(String name, String age) {
+    public UserDto add(String name, String age)  {
         UserDto userDto = new UserDto();
         userDto.setName(name);
         userDto.setAge(age);

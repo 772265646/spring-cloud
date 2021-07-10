@@ -15,5 +15,5 @@ public interface UserService {
      * @param age 性别
      * @return 返回值
      */
-    UserDto add(String name, String age);
+    UserDto add(String name, String age) ;
 }
