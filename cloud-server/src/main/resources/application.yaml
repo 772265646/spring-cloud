@@ -31,6 +31,7 @@
 #    dubbo:
 #      name: dubbo # 协议名称
 #      port: -1 # 协议端口，-1 表示自增端口，从 20880 开始
+##      validation: true
 #  # Dubbo 服务注册中心配置，对应 RegistryConfig 类
 #  registry:
 #    address: spring-cloud://127.0.0.1:8848 # 指定 Dubbo 服务注册中心的地址
